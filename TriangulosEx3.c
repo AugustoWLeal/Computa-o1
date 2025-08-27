@@ -17,7 +17,7 @@ int main()
 	else if(a!=b && a!=c && b!=c)
 		printf("O triangulo e escaleno");
 	else
-		printf("O triangulo C) isosceles");
+		printf("O triangulo e isosceles");
 
 
 
