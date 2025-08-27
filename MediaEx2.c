@@ -5,15 +5,14 @@ int main()
 {
 	float x, y, z, MediaAritimetica, MediaPonderada, MediaGeometrica, MediaHarmonica;
 	char d;
-	printf("Digite 3 numeros: ");
-	scanf("%f %f %f",&x,&y,&z);
 	printf("Digite:\n");
 	printf("A para Media aritimetica\n");
 	printf("P para media ponderada\n");
 	printf("G para media geometrica\n");
 	printf("H para media harmonica\n");
 	scanf("%c",&d);
-	scanf("%c",&d);
+	printf("Digite 3 numeros: ");
+	scanf("%f %f %f",&x,&y,&z);
 	if (d=='a' || d=='A')
 	{	MediaAritimetica=(x+y+z)/3;
 		printf("MediaAritimetica = %f \n",MediaAritimetica);
