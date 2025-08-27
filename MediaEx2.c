@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <math.h>
+
 int main()
 {
 	float x, y, z, MediaAritimetica, MediaPonderada, MediaGeometrica, MediaHarmonica;
@@ -27,9 +30,5 @@ int main()
 	{	MediaHarmonica=3/(1/x+1/y+1/z);
 		printf("MediaHarmonica = %f ",MediaHarmonica);
 	}
-
-
-
-
 	return 0;
 }
